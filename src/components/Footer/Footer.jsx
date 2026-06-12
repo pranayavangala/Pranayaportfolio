@@ -1,4 +1,4 @@
-import "./Footer.scss";
+//import "./Footer.scss";
 import { FaGithub, FaLinkedin, FaEnvelope, FaArrowUp } from "react-icons/fa";
 
 function Footer() {
