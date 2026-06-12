@@ -1,0 +1,123 @@
+.projects {
+  padding: 120px 8%;
+  background: #050816;
+  text-align: center;
+}
+
+.projects h5 {
+  color: #8b5cf6;
+  letter-spacing: 2px;
+}
+
+.projects h2 {
+  font-size: 48px;
+  color: white;
+  margin: 20px 0 60px;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+  gap: 30px;
+}
+
+.project-card {
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(15px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 25px;
+  padding: 35px;
+  transition: 0.4s;
+  text-align: left;
+}
+
+.project-card:hover {
+  transform: translateY(-12px);
+  box-shadow: 0 20px 40px rgba(59, 130, 246, 0.2);
+}
+
+.project-card h3 {
+  color: white;
+  font-size: 28px;
+}
+
+.project-card h4 {
+  color: #3b82f6;
+  margin: 15px 0;
+}
+
+.project-card p {
+  color: #b0b8d1;
+  line-height: 1.8;
+}
+
+.project-card button {
+  margin-top: 25px;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 30px;
+  background: linear-gradient(90deg, #3b82f6, #8b5cf6);
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.project-card button:hover {
+  transform: scale(1.05);
+}
+
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.75);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  z-index: 9999;
+}
+
+.popup {
+  width: 600px;
+  max-width: 90%;
+  padding: 40px;
+
+  border-radius: 20px;
+
+  background: #111827;
+
+  color: white;
+
+  text-align: center;
+
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+}
+
+.popup h2 {
+  margin-bottom: 20px;
+  color: #8b5cf6;
+}
+
+.popup p {
+  margin: 15px 0;
+  line-height: 1.7;
+  color: #d1d5db;
+}
+
+.popup button {
+  margin-top: 20px;
+  padding: 12px 28px;
+
+  border: none;
+  border-radius: 30px;
+
+  background: linear-gradient(90deg, #3b82f6, #8b5cf6);
+
+  color: white;
+
+  cursor: pointer;
+}
