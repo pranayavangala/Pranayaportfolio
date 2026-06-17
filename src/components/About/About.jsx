@@ -42,8 +42,8 @@ function About() {
             </div>
 
             <div className="card">
-              <h3>20+</h3>
-              <span>Projects</span>
+              <h3>4+</h3>
+              <span>Industries</span>
             </div>
 
             <div className="card">
